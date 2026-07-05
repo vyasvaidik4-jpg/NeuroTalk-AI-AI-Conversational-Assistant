@@ -1,84 +1,102 @@
-# NeuroTalk-AI-AI-Conversational-Assistant
-NeuroTalk AI is an intelligent conversational assistant built with Python and Generative AI. It enables natural, context-aware conversations, understands user queries, and generates meaningful responses. The project showcases AI agent architecture, prompt engineering, and LLM integration for an interactive chatbot experience.
-# 🤖 NeuroTalk AI – AI Conversational Assistant
+# 🤖 NeuroTalk AI – Conversational Assistant
 
-NeuroTalk AI is an intelligent conversational assistant built with Python and Generative AI. It enables natural, context-aware conversations by understanding user queries and generating meaningful responses. The project demonstrates AI agent architecture, prompt engineering, and LLM integration to create an interactive chatbot experience.
+NeuroTalk AI is an intelligent conversational assistant built with **Python**, **Google Agent Development Kit (ADK)**, and **Generative AI**. It enables natural, context-aware conversations by understanding user queries and generating meaningful responses. This project demonstrates AI agent architecture, prompt engineering, and Large Language Model (LLM) integration to create an interactive chatbot experience.
+
+---
 
 ## 🚀 Features
 
-- Natural language conversations
-- Context-aware responses
-- AI Agent workflow
-- Prompt Engineering
-- Easy-to-use interface
-- Scalable architecture
+* 🤖 Intelligent conversational AI
+* 💬 Natural language understanding
+* 🧠 Context-aware responses
+* ⚡ Powered by Google Gemini
+* 🛠️ Built using Google ADK
+* 📈 Scalable AI agent architecture
+* ✨ Easy to customize and extend
+
+---
 
 ## 🛠️ Tech Stack
 
-- Python
-- Google ADK
-- Generative AI
-- Gemini API
-- LLM
-- Prompt Engineering
+* Python
+* Google Agent Development Kit (ADK)
+* Google Gemini API
+* Generative AI
+* Large Language Models (LLMs)
+* Prompt Engineering
+
+---
 
 ## 📂 Project Structure
 
-```
+```text
 NeuroTalk-AI/
 ├── agent.py
-├── main.py
+├── __init__.py
 ├── requirements.txt
-├── README.md
-└── ...
+└── README.md
 ```
+
+---
 
 ## ⚙️ Installation
 
-1. Clone the repository
+### 1. Clone the repository
 
 ```bash
 git clone https://github.com/YOUR_USERNAME/NeuroTalk-AI.git
 ```
 
-2. Navigate to the project
+### 2. Navigate to the project
 
 ```bash
 cd NeuroTalk-AI
 ```
 
-3. Install dependencies
+### 3. Install the required dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-4. Configure your API key.
+### 4. Configure your Gemini API Key
 
-5. Run the project.
+Create a `.env` file and add your API key:
+
+```env
+GOOGLE_API_KEY=YOUR_API_KEY
+```
+
+### 5. Run the project
 
 ```bash
-python main.py
+adk run
 ```
+
+---
 
 ## 📸 Demo
 
-Add screenshots or a GIF of your project here.
+> Add screenshots or a short GIF here to showcase the chatbot in action.
+
+---
 
 ## 🎯 Future Improvements
 
-- Voice interaction
-- Multi-language support
-- Conversation history
-- Web interface
-- Better memory management
+* 🎙️ Voice-based interaction
+* 🌍 Multi-language support
+* 📝 Conversation history
+* 🌐 Web-based user interface
+* 🧠 Long-term memory support
+
+---
 
 ## 👨‍💻 Author
 
 **Vaidik Vyas**
 
-LinkedIn: https://www.linkedin.com/in/vaidik-vyas-56922b363/
+* 💼 LinkedIn: https://www.linkedin.com/in/vaidik-vyas-56922b363/
 
 ---
 
-⭐ If you found this project useful, don't forget to star the repository!
+⭐ **If you found this project helpful, consider giving it a star!**
